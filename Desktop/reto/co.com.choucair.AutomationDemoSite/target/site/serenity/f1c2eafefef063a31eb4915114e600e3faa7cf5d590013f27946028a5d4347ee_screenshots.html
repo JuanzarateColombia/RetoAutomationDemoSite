@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">demo project Serenity y Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0850a302816831b1540d85e76ba6c121fa0140fad5ad1d0d0ec7c96ec71b42af.html">Automation Demo Site</a></span>
+                > <span class="truncate-60"><a
+                    href="f1c2eafefef063a31eb4915114e600e3faa7cf5d590013f27946028a5d4347ee.html">New user registration </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-03-2021 07:46</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Automation Demo Site </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to register on the Demo Site automation platform
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html">Register
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">New user registration
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given The user wants to register on the platform<br>When register the fields requested by the platform<br><table class='embedded'><thead><th>strFirsName</th><th>strLastName</th><th>strAddress</th><th>strEmailAddress</th><th>srtPhone</th><th>strSkills</th><th>strContry</th><th>srtYear</th><th>srtDay</th><th>strPassword</th></thead><tbody><tr><td>Juan</td><td>Carlos</td><td>carrera 17a n 36 40</td><td>adioslave@live.com</td><td>3208581516</td><td>Implementation</td><td>Colombia</td><td>1985</td><td>10</td><td>Password1234</td></tr></tbody></table><br>Then register successfully<br><table class='embedded'><tbody><tr><td>strValidate</td></tr><tr><td>Automation Demo Site</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="164fd73db65756681e402a8308c3b8d5a02edb44515e5d148f5e79eff4ed42a1.png" title=" Example: {strFirsName=Juan, strLastName=Carlos, strAddress=carrera 17a n 36 40, strEmailAddress=adioslave@live.com, srtPhone=3208581516, strSkills=Implementation, strContry=Colombia, srtYear=1985, srtDay=10, strPassword=Password1234, strValidate=Automation Demo Site}" width="1034"/>
+                <img src="164fd73db65756681e402a8308c3b8d5a02edb44515e5d148f5e79eff4ed42a1.png" title=" Given The user wants to register on the platform" width="1034"/>
+                <img src="164fd73db65756681e402a8308c3b8d5a02edb44515e5d148f5e79eff4ed42a1.png" title=" User open up" width="1034"/>
+                <img src="164fd73db65756681e402a8308c3b8d5a02edb44515e5d148f5e79eff4ed42a1.png" title=" User opens the Automation demo site page" width="1034"/>
+                <img src="164fd73db65756681e402a8308c3b8d5a02edb44515e5d148f5e79eff4ed42a1.png" title=" User open up (completed)" width="1034"/>
+                <img src="164fd73db65756681e402a8308c3b8d5a02edb44515e5d148f5e79eff4ed42a1.png" title=" Given The user wants to register on the platform (completed)" width="1034"/>
+                <img src="7bfcaeee4c42a3775b6302edfd954edcb29eacc5579f7eeb72824d2db47b6308.png" title=" When register the fields requested by the platform
+| strFirsName | strLastName | strAddress | strEmailAddress | srtPhone | strSkills | strContry | srtYear | srtDay | strPassword |
+| Juan | Carlos | carrera 17a n 36 40 | adioslave@live.com | 3208581516 | Implementation | Colombia | 1985 | 10 | Password1234 |" width="1034"/>
+                <img src="7bfcaeee4c42a3775b6302edfd954edcb29eacc5579f7eeb72824d2db47b6308.png" title=" User record" width="1034"/>
+                <img src="7bfcaeee4c42a3775b6302edfd954edcb29eacc5579f7eeb72824d2db47b6308.png" title=" User enters 'Juan' into where do we write the First name" width="1034"/>
+                <img src="c31053a3a9153131dd35a83e85c3d00bdd3942ceca44a23819b33d8fd830766f.png" title=" User enters 'Carlos' into where do we write the last name" width="1034"/>
+                <img src="37d8928e448c57c8ce70489ba20412d5d2477235682803176951a9041c3f1653.png" title=" User enters 'carrera 17a n 36 40' into where do we write the address" width="1034"/>
+                <img src="2ad5b74a914cde651937262b39f310d2e32ca0c656bd79172709d7d91cb94ebf.png" title=" User enters 'adioslave@live.com' into where we write the email address" width="1034"/>
+                <img src="fa5353f98f1f37ea9e35333fe98601ca7f9fe212bab379e6579bb0c395a1463d.png" title=" User enters '3208581516' into where do we write the phone" width="1034"/>
+                <img src="02bd25c18119bd6e2152872cd6610a016801652666aa2e3b925b422522fec3d8.png" title=" User clicks on where we select the genre" width="1034"/>
+                <img src="49950ad7966ebff2391f1bc359c2b390581246412bde543f409d100715cf8b8c.png" title=" User clicks on where we select the hobbies" width="1034"/>
+                <img src="aa3a343fabe6ddb8b975726fd4b932427d3c5c75d5b44b2c314d118b9fcfee6a.png" title=" User clicks on " width="1034"/>
+                <img src="363315a42f3761f6b483d8a5f37fffa61996a7b9ff1f1d153f9d681b429c468c.png" title=" User clicks on " width="1034"/>
+                <img src="3be90bae6c7cf865bd7517ade7a2194cdaa5c9aa453886c6ab125acc1dd754ef.png" title=" User select Implementation on where we select the skills" width="1034"/>
+                <img src="ade5ee17443086cebae66ea79a975626e7dd4a6ca656e88c8b3598f37df49d8c.png" title=" User select Colombia on where we select the country" width="1034"/>
+                <img src="afd6e0c39d2bb84b224de46fbe9c2d8b731f402331ca3c87528b94676cbf35d1.png" title=" User clicks on where we select the city" width="1034"/>
+                <img src="4faed0bc65699f02aa316d0f9bbffaf257c99c8ff9f5ce6f8c791e5392597614.png" title=" User clicks on where we select the city" width="1034"/>
+                <img src="7c6f31e82dfa98624d0b31cd24b6d1c7c540e2fb7b89dcc17f436b12b14c754a.png" title=" User select 1985 on where we select the date of birth (year)" width="1034"/>
+                <img src="a532ae76514869141d8289e1210ea888464837a5000fea728323a86ac2ff79d7.png" title=" User clicks on where we select the date of birth (month)" width="1034"/>
+                <img src="a532ae76514869141d8289e1210ea888464837a5000fea728323a86ac2ff79d7.png" title=" User clicks on where we select the date of birth (month)" width="1034"/>
+                <img src="1c88fe5d29cc6c7713f5739763dad96ba03f78e2992dce8f802872d074c0038e.png" title=" User select 10 on where we select the date of birth (day)" width="1034"/>
+                <img src="6a32ad9f8318332bbc55877bdef7f4796ce4757dfc29ac0f3d758ecdcff8119d.png" title=" User enters 'Password1234' into where we assign the password" width="1034"/>
+                <img src="a86145dce5d86183095ec54626a0305340d1e32fa39a4c4408aad45251e88256.png" title=" User enters 'Password1234' into where we confirm the password" width="1034"/>
+                <img src="95cc356e6fc9bca779c465de26364743817d0b193e957f72d123867b01208f42.png" title=" User clicks on where we send the record" width="1034"/>
+                <img src="95cc356e6fc9bca779c465de26364743817d0b193e957f72d123867b01208f42.png" title=" User record (completed)" width="1034"/>
+                <img src="95cc356e6fc9bca779c465de26364743817d0b193e957f72d123867b01208f42.png" title=" When register the fields requested by the platform
+| strFirsName | strLastName | strAddress | strEmailAddress | srtPhone | strSkills | strContry | srtYear | srtDay | strPassword |
+| Juan | Carlos | carrera 17a n 36 40 | adioslave@live.com | 3208581516 | Implementation | Colombia | 1985 | 10 | Password1234 | (completed)" width="1034"/>
+                <img src="95cc356e6fc9bca779c465de26364743817d0b193e957f72d123867b01208f42.png" title=" Then register successfully
+| strValidate |
+| Automation Demo Site |" width="1034"/>
+                <img src="95cc356e6fc9bca779c465de26364743817d0b193e957f72d123867b01208f42.png" title=" Then answer" width="1034"/>
+                <img src="95cc356e6fc9bca779c465de26364743817d0b193e957f72d123867b01208f42.png" title=" Then register successfully
+| strValidate |
+| Automation Demo Site | (completed)" width="1034"/>
+                <img src="95cc356e6fc9bca779c465de26364743817d0b193e957f72d123867b01208f42.png" title=" Example: {strFirsName=Juan, strLastName=Carlos, strAddress=carrera 17a n 36 40, strEmailAddress=adioslave@live.com, srtPhone=3208581516, strSkills=Implementation, strContry=Colombia, srtYear=1985, srtDay=10, strPassword=Password1234, strValidate=Automation Demo Site} (completed): <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

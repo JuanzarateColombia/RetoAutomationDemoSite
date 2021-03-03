@@ -1,0 +1,4 @@
+co/com/choucair/AutomationDemoSite/runners/RunnerTags.java
+ co.com.choucair.certification.academy.runners.RunnerTags
+co/com/choucair/AutomationDemoSite/stepdefinitions/DemoSiteAutomationStepdefinitions.java
+ co.com.choucair.AutomationDemoSite.stepdefinitions.DemoSiteAutomationStepdefinitions
